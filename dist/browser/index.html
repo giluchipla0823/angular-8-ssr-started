@@ -18,7 +18,11 @@
   <script>var cb = function() {
     var l = document.createElement('link'); l.rel = 'stylesheet';
     l.href = 'styles.70c83e0a783ce8ce3f4e.css';
-    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    var h = document.getElementsByTagName('head')[0]; 
+    
+    // document.getElementsByTagName('body')
+
+    h.insertAfter(l, h);
     };
     var raf = requestAnimationFrame || mozRequestAnimationFrame ||
     webkitRequestAnimationFrame || msRequestAnimationFrame;
