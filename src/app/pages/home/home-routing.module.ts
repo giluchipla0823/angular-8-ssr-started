@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home.component';
 
+import { LazyLoadImageModule, intersectionObserverPreset } from 'ng-lazyload-image';
+
 const routes: Routes = [
   {
     path: '',
@@ -16,7 +18,8 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    LazyLoadImageModule.forRoot(intersectionObserverPreset)
   ],
   exports: [RouterModule]
 })
