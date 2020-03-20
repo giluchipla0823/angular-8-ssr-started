@@ -12,7 +12,18 @@
 
 <body>
   <app-root></app-root>
+
   
-  <link rel="stylesheet" href="styles.70c83e0a783ce8ce3f4e.css"></head>
+
+  <script>var cb = function() {
+    var l = document.createElement('link'); l.rel = 'stylesheet';
+    l.href = 'styles.70c83e0a783ce8ce3f4e.css';
+    var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+    };
+    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+    webkitRequestAnimationFrame || msRequestAnimationFrame;
+    if (raf) raf(cb);
+    else window.addEventListener('load', cb);</script>
+
   <script src="runtime-es2015.0399d77cffb95fdf0b93.js" type="module"></script><script src="runtime-es5.0399d77cffb95fdf0b93.js" nomodule defer></script><script src="polyfills-es5.3e8196928d184a6e5319.js" nomodule defer></script><script src="polyfills-es2015.5b10b8fd823b6392f1fd.js" type="module"></script><script src="scripts.b731ee02b00f86668306.js" defer></script><script src="main-es2015.9f8c70322c3175b45b15.js" type="module"></script><script src="main-es5.9f8c70322c3175b45b15.js" nomodule defer></script></body>
 </html>
