@@ -45,7 +45,12 @@ const routes: Routes = [
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    // RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, {
+      initialNavigation: 'enabled',
+      scrollPositionRestoration: 'enabled', // Add options right here
+      // preloadingStrategy: PreloadA
+    })
   ],
   exports: [
     RouterModule
