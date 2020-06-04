@@ -8,16 +8,46 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   images: any[] = [
-    'assets/images/01.jpg',
-    'assets/images/02.jpg',
-    'assets/images/03.jpg',
-    'assets/images/04.jpg',
-    'assets/images/05.jpg',
-    'assets/images/06.jpg',
-    'assets/images/07.jpg',
-    'assets/images/08.jpg',
-    'assets/images/09.jpg',
-    'assets/images/10.jpg',
+    {
+      thumb: 'assets/images/rsz_01.jpg',
+      image: 'assets/images/01.jpg',
+    },
+    {
+      thumb: 'assets/images/rsz_02.jpg',
+      image: 'assets/images/02.jpg',
+    },
+    {
+      thumb: 'assets/images/rsz_03.jpg',
+      image: 'assets/images/03.jpg',
+    },
+    {
+      thumb: 'assets/images/04.jpg',
+      image: 'assets/images/04.jpg',
+    },
+    {
+      thumb: 'assets/images/05.jpg',
+      image: 'assets/images/05.jpg',
+    },
+    {
+      thumb: 'assets/images/06.jpg',
+      image: 'assets/images/06.jpg',
+    },
+    {
+      thumb: 'assets/images/07.jpg',
+      image: 'assets/images/07.jpg',
+    },
+    {
+      thumb: 'assets/images/08.jpg',
+      image: 'assets/images/08.jpg',
+    },
+    {
+      thumb: 'assets/images/09.jpg',
+      image: 'assets/images/09.jpg',
+    },
+    {
+      thumb: 'assets/images/10.jpg',
+      image: 'assets/images/10.jpg',
+    }
   ];
 
   constructor() { }
