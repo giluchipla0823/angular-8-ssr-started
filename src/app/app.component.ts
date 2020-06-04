@@ -4,7 +4,7 @@ import { Title, Meta, MetaDefinition } from '@angular/platform-browser';
 import { Router, Event, NavigationEnd, ActivationEnd } from '@angular/router';
 import { map, filter } from 'rxjs/operators';
 
-declare var gtag: any;
+// declare var gtag: any;
 
 @Component({
   selector: 'app-root',
@@ -48,7 +48,7 @@ export class AppComponent {
   }
 
   googleAnalyticsListener(): void {
-    this.router.events
+    /* this.router.events
       .pipe(
         filter(event => event instanceof NavigationEnd)
       )
@@ -57,6 +57,6 @@ export class AppComponent {
         gtag('config', 'UA-161414129-1', {
           page_path: event.urlAfterRedirects
         });
-      });
+      }); */
   }
 }
