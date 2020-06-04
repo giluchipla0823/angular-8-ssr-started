@@ -44,7 +44,8 @@ const routes: Routes = [
   declarations: [],
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes, {preloadingStrategy: PreloadAllModules})
+    // RouterModule.forRoot(routes, {preloadingStrategy: PreloadAllModules})
+    RouterModule.forRoot(routes)
   ],
   exports: [
     RouterModule
