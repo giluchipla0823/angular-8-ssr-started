@@ -21,31 +21,24 @@ export class HomeComponent implements OnInit {
       image: 'assets/images/03.jpg',
     },
     {
-      thumb: 'assets/images/04.jpg',
       image: 'assets/images/04.jpg',
     },
     {
-      thumb: 'assets/images/05.jpg',
       image: 'assets/images/05.jpg',
     },
     {
-      thumb: 'assets/images/06.jpg',
       image: 'assets/images/06.jpg',
     },
     {
-      thumb: 'assets/images/07.jpg',
       image: 'assets/images/07.jpg',
     },
     {
-      thumb: 'assets/images/08.jpg',
       image: 'assets/images/08.jpg',
     },
     {
-      thumb: 'assets/images/09.jpg',
       image: 'assets/images/09.jpg',
     },
     {
-      thumb: 'assets/images/10.jpg',
       image: 'assets/images/10.jpg',
     }
   ];
