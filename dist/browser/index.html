@@ -22,7 +22,7 @@
     gtag('js', new Date());
   </script> -->
 
-  <link async rel="stylesheet" href="styles.0afd7cb5c529bec4d046.css" />
+  <!-- <link async rel="stylesheet" href="styles.0afd7cb5c529bec4d046.css" /> -->
   <script src="runtime-es2015.a3d5ef1f820dcee4b7a2.js" type="module"></script>
   <script src="runtime-es5.a3d5ef1f820dcee4b7a2.js" nomodule defer></script>
   <script src="polyfills-es5.3e8196928d184a6e5319.js" nomodule defer></script>
@@ -30,5 +30,28 @@
   <script src="scripts.b5f95a414ce22711dfe4.js" defer></script>
   <script src="main-es2015.dfbd2cb71ade6b8b241d.js" type="module"></script>
   <script src="main-es5.dfbd2cb71ade6b8b241d.js" nomodule defer></script>
+
+  <script type="text/javascript">
+      function downloadJSAtOnload() {
+          const css = [
+            {
+              name: 'styles.0afd7cb5c529bec4d046.css'
+            }
+          ];
+
+          css.forEach((item) => {
+            var element = document.createElement("link");
+            element.href = item.name;
+            element.rel = "stylesheet";
+
+            document.body.appendChild(element);  
+          });
+      }
+      if (window.addEventListener)
+          window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+          window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+  </script>
 </body>
 </html>
