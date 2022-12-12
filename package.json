@@ -27,7 +27,7 @@
     "@nguniversal/express-engine": "^8.2.6",
     "@nguniversal/module-map-ngfactory-loader": "v8.2.6",
     "bootstrap": "^4.0.0",
-    "express": "^4.15.2",
+    "express": "^4.17.3",
     "jquery": "^3.4.1",
     "ng-lazyload-image": "^7.1.0",
     "popper.js": "^1.16.1",
